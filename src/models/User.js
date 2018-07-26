@@ -6,9 +6,10 @@ const {
   Schema,
 } = mongoose;
 
+// TODO: Adicionar pré-save com validaçao de duplicidades
 const DoençaSchema = new Schema({
   nome: String,
-  descricao: String,
+  descriçao: String,
 });
 
 const ValorMedidaSchema = new Schema({
@@ -16,6 +17,7 @@ const ValorMedidaSchema = new Schema({
   valor: Number,
 });
 
+// TODO: Adicionar pré-save com validaçao de duplicidades
 const MedidaSchema = new Schema({
   nome: String,
   valores: [ValorMedidaSchema],
@@ -25,9 +27,10 @@ const MedidaSchema = new Schema({
   },
 });
 
+// TODO: Adicionar pré-save com validaçao de duplicidades
 const RemedioSchema = new Schema({
   nome: String,
-  descricao: String,
+  descriçao: String,
 });
 
 const UsuarioSchema = Entity.extend({

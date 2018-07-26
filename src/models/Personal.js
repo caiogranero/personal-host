@@ -14,4 +14,6 @@ const PersonalSchema = User.extend({
   },
 });
 
-module.exports = mongoose.model('Personal', PersonalSchema);
+const PersonalModel = mongoose.model('Personal', PersonalSchema);
+
+module.exports = PersonalModel;
