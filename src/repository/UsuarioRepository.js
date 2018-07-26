@@ -2,10 +2,14 @@ const mongoose = require('mongoose');
 const UsuarioSchema = require('../models/User');
 
 const usuarioRepository = {
-  FindById(_id) {
+  FindById(id) {
     return mongoose.model('Usuario', UsuarioSchema).findById({
-      _id,
+      _id: id,
     }).exec();
+  },
+
+  ListAll() {
+    return mongoose.model('Usuario', UsuarioSchema).find().exec();
   },
 };
 module.exports = usuarioRepository;

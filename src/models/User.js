@@ -54,6 +54,10 @@ const UsuarioSchema = Entity.extend({
     type: Number,
     required: false,
   },
+  telefone: {
+    type: String,
+    required: false,
+  },
   altura: {
     type: Number,
     required: false,
