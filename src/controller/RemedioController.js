@@ -5,10 +5,12 @@ const usuarioRepository = require('../repository/UsuarioRepository');
 const remedioController = {
   NovoRemedio(usuarioId, { nome, descricao }) {
     return usuarioRepository.FindById(usuarioId).then((usuario) => {
-      usuario.remedios.push({
-        nome,
-        descriçao: descricao,
-      });
+      
+      if (usuario.remedios.find(d => d.nome.toLowerCase().trim() === nome.toLowerCase().trim())) {
+        return Promise.reject(new Error('Remédio já cadastrado para esse usuário'));
+      }
+
+      usuario.remedios.push({ nome, descriçao: descricao });
 
       return usuario
         .save()

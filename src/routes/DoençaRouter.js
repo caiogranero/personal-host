@@ -1,16 +1,16 @@
 const baseUrl = '/api/usuarios/:usuarioId/doencas';
-const usuarioController = require('../controller/UsuarioController');
+const doençaController = require('../controller/DoençaController');
 const routerHandler = require('../utils/RouterHandler');
 
 module.exports = (app) => {
-  app.post(`${baseUrl}`, routerHandler(usuarioController.NovaDoença, (req, res, next) => [
+  app.post(`${baseUrl}`, routerHandler(doençaController.NovaDoença, (req, res, next) => [
     req.params.usuarioId,
     req.body,
   ]));
 
-  app.get(`${baseUrl}`, routerHandler(usuarioController.ListarDoenças, (req, res, next) => [req.params.usuarioId]));
+  app.get(`${baseUrl}`, routerHandler(doençaController.ListarDoenças, (req, res, next) => [req.params.usuarioId]));
 
-  app.delete(`${baseUrl}/:doencaId`, routerHandler(usuarioController.RemoverDoença, (req, res, next) => [
+  app.delete(`${baseUrl}/:doencaId`, routerHandler(doençaController.RemoverDoença, (req, res, next) => [
     req.params.usuarioId,
     req.params.doencaId,
   ]));

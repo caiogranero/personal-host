@@ -9,9 +9,9 @@ const controllerHandler = (promise, params) => async (req, res, next) => {
   const boundParams = params ? params(req, res, next) : [];
   try {
     const result = await promise(...boundParams);
-    return res.json(result || { message: true });
+    return res.send({ data: result } || { message: true });
   } catch (error) {
-    return res.status(500).json(error);
+    return res.status(500).send({ error: error.toString() });
   }
 };
 module.exports = controllerHandler; // Just a name shortener.

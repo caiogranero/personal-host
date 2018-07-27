@@ -3,7 +3,9 @@ const Personal = require('../models/Personal');
 
 const UserFactory = {
   CreateAluno(nome, senha, email, personalId) {
-    return new Aluno({ nome, senha, email, personal: personalId });
+    return new Aluno({
+      nome, senha, email, personal: personalId,
+    });
   },
 
   CreatePersonal(nome, senha, email) {

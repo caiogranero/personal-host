@@ -20,8 +20,8 @@ const printRoutes = () => {
 };
 
 const server = app.listen(port, () => {
-  Console.log(`Server listen on port ${port}`);
   printRoutes();
+  Console.log(`Server listen on port ${port}`);
 });
 
 module.exports = server;
