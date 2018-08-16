@@ -18,5 +18,12 @@ const usuarioRepository = {
       .limit(limit)
       .exec();
   },
+
+  FindAlunos(query) {
+    return mongoose
+      .model('Usuario', UsuarioSchema)
+      .find(Object.assign({ _type: 'Aluno' }, query))
+      .exec();
+  },
 };
 module.exports = usuarioRepository;
