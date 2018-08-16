@@ -8,4 +8,6 @@ module.exports = (app) => {
   app.get(baseUrl, routerHandler(usuarioController.ListarTodos, (req, res, next) => []));
 
   app.get(`${baseUrl}/:usuarioId`, routerHandler(usuarioController.GetUsuarioPorId, (req, res, next) => [req.params.usuarioId]));
+
+  app.patch(`${baseUrl}/:usuarioId`, routerHandler(usuarioController.EditarUsuario, (req, res, next) => [req.params.usuarioId, req.body]));
 };

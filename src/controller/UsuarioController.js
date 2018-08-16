@@ -3,6 +3,7 @@
 const usuarioFactory = require('../factories/UsuarioFactory');
 const usuarioRepository = require('../repository/UsuarioRepository');
 const TipoDeUsuario = require('../utils/TipoDeUsuario');
+const moment = require('moment');
 
 const usuarioController = {
   CreateUsuario({
@@ -26,6 +27,32 @@ const usuarioController = {
 
   ListarTodos() {
     return usuarioRepository.ListAll();
+  },
+
+  EditarUsuario(usuarioId, { nascimento, genero, telefone, altura }) {
+    return usuarioRepository.FindById(usuarioId).then((usuario) => {
+
+      if (nascimento && nascimento !== usuario.nascimento) {
+        usuario.set({ nascimento: moment(nascimento) });
+      }
+
+      if (genero && genero !== usuario.genero) {
+        usuario.set({ genero });
+      }
+  
+      if (telefone && telefone !== usuario.telefone) {
+        usuario.set({ telefone });
+      }
+  
+      if (altura && altura !== usuario.altura) {
+        usuario.set({ altura });
+      }
+  
+      return usuario
+        .save()
+        .then(document => Promise.resolve(document))
+        .catch(error => Promise.reject(error));
+    });
   },
 
   GetUsuarioPorId(id) {

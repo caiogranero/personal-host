@@ -63,7 +63,7 @@ const UsuarioSchema = Entity.extend({
     required: false,
     validate: {
       validator(v) {
-        return /\+\d{2}\s\(\d{2}\)\s\d{4,5}-?\d{4}/g.test(v);
+        return /^(?:(?:\+|00)?(55)\s?)?(?:\(?([1-9][0-9])\)?\s?)?(?:((?:9\d|[2-9])\d{3})\-?(\d{4}))$/.test(v);
       },
       message: 'Telefone não é válido',
     },
@@ -76,13 +76,6 @@ const UsuarioSchema = Entity.extend({
   doenças: {
     type: [DoençaSchema],
     required: false,
-    // validate: {
-    //   validator(v) {
-    //     console.log(this.doenças.length, v.length)
-    //     return !this.doenças.find(d =>  d.nome === _.last(v).nome);
-    //   },
-    //   message: 'Doença já cadastrada.',
-    // },
   },
   medidas: {
     type: [MedidaSchema],
@@ -104,25 +97,10 @@ const UsuarioSchema = Entity.extend({
       valores: [],
       ativo: true,
     }],
-    // validate: {
-    //   validator(v) {
-    //     console.log(v);
-    //     return !this.medidas.find(d => d.ativo && d.nome === _.last(v).nome);
-    //   },
-    //   message: 'Medida já cadastrada.',
-    // },
   },
   remedios: {
     type: [RemedioSchema],
     required: false,
-    // validate: {
-    //   validator(v) {
-    //     // console.log(v);
-    //     // console.log(!!this.remedios.find(d => d.nome === v.nome))
-    //     return !this.remedios.find(d => d.nome === _.last(v).nome);
-    //   },
-    //   message: 'Remedio já cadastrado.',
-    // },
   },
 }, {
   collection: 'usuarios',

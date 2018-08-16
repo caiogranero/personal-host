@@ -21,8 +21,8 @@ const remedioController = {
 
   ListarRemedios(usuarioId) {
     return usuarioRepository
-      .FindById(usuarioId)
-      .then(usuario => Promise.resolve(usuario.remedios));
+      .FindById(usuarioId, ['remedios'])
+      .then(usuario => Promise.resolve(usuario));
   },
 
   RemoverRemedio(usuarioId, remedioId) {

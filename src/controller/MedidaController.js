@@ -5,11 +5,11 @@ const usuarioRepository = require('../repository/UsuarioRepository');
 const medidaController = {
   NovaMedida(usuarioId, { nome }) {
     return usuarioRepository.FindById(usuarioId).then((usuario) => {
-      usuario.medidas.push({ nome });
-
-      if (usuario.medida.find(d => d.nome.toLowerCase().trim() === nome.toLowerCase().trim())) {
+      if (usuario.medidas.find(d => d.nome.toLowerCase().trim() === nome.toLowerCase().trim())) {
         return Promise.reject(new Error('Medida já cadastrada para esse usuário'));
       }
+
+      usuario.medidas.push({ nome });
 
       return usuario
         .save()
@@ -20,8 +20,8 @@ const medidaController = {
 
   ListarMedidas(usuarioId) {
     return usuarioRepository
-      .FindById(usuarioId)
-      .then(usuario => Promise.resolve(usuario.medidas));
+      .FindById(usuarioId, ['medidas'], { 'medidas.ativo': true })
+      .then(usuario => Promise.resolve(usuario));
   },
 
   AdicionarValorEmMedida(usuarioId, medidaId, { data, valor }) {
