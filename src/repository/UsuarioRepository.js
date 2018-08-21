@@ -10,6 +10,13 @@ const usuarioRepository = {
       .exec();
   },
 
+  GetByLogin({ email, senha }) {
+    return mongoose
+      .model('Usuario', UsuarioSchema)
+      .findOne({ email, senha })
+      .exec();
+  },
+
   ListAll(skip = 0, limit = 10) {
     return mongoose
       .model('Usuario', UsuarioSchema)

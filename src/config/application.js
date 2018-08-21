@@ -9,6 +9,8 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
+const Middleware = require('../utils/Middleware');
+
 
 const config = environment.getSetup('development');
 mongoose.connect(config.db.uri);
@@ -18,6 +20,7 @@ app.set('superSecret', config.application.secret);
 app.use(cookieParser());
 app.use(helmet());
 app.use(cors());
+app.use(Middleware.Auth);
 
 if (process.env.NODE_ENV !== 'test') {
   app.use(morgan('dev'));

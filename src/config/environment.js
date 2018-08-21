@@ -2,7 +2,7 @@ module.exports = {
   application: {
     application: {
       port: 1234,
-      secret: 'auth-nodejs',
+      secret: 'personal-secret-key',
     },
   },
 
