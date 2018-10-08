@@ -26,6 +26,20 @@ const usuarioRepository = {
       .exec();
   },
 
+  FindUser(query) {
+    return mongoose
+      .model('Usuario', UsuarioSchema)
+      .find(query)
+      .exec();
+  },
+
+  GetPersonalByCode(code) {
+    return mongoose
+      .model('Usuario', UsuarioSchema)
+      .find({ code })
+      .exec();
+  },
+
   FindAlunos(query) {
     return mongoose
       .model('Usuario', UsuarioSchema)

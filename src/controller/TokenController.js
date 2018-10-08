@@ -7,11 +7,9 @@ const TokenController = {
       email,
       senha,
     }).then((user) => {
-      if (!user) {
-        return Promise.reject(new Error('Usuário não encontrado.'));
-      }
+      if (!user) return Promise.reject(new Error('Usuário não encontrado.'));
 
-      const payload = { name: user.nome, id: user._id, email: user.email };
+      const payload = { name: user.nome, id: user._id, email: user.email, type: user._type };
 
       const token = jwt.sign(payload, tokenKey, {
         expiresIn: '24h',
@@ -37,7 +35,7 @@ const TokenController = {
       }
       return Promise.resolve(decoded);
     });
-  },
+  }
 };
 
 module.exports = TokenController;

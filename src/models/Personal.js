@@ -12,6 +12,10 @@ const PersonalSchema = User.extend({
     required: true,
     ref: 'Aluno',
   },
+  code: {
+    type: String,
+    required: true,
+  }
 });
 
 const PersonalModel = mongoose.model('Personal', PersonalSchema);

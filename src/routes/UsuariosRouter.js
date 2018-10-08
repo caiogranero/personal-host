@@ -11,5 +11,8 @@ module.exports = (app) => {
 
   app.patch(`${baseUrl}/:usuarioId`, routerHandler(usuarioController.EditarUsuario, (req, res, next) => [req.params.usuarioId, req.body]));
 
-  app.get(`${baseUrl}/:usuarioId/alunos`, routerHandler(usuarioController.GetAlunos, (req, res, next) => [req.params.usuarioId]));
+  app.get(`${baseUrl}/:usuarioId/alunos`, routerHandler(usuarioController.GetAlunos, (req, res, next) => [
+    req.headers.authorization,
+    app.get('superSecret'),  
+  ]));
 };

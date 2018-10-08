@@ -19,6 +19,11 @@ const printRoutes = () => {
   });
 };
 
+String.prototype.toObjectId = function() {
+  const ObjectId = (require('mongoose').Types.ObjectId);
+  return new ObjectId(this.toString());
+};
+
 const server = app.listen(port, () => {
   printRoutes();
   Console.log(`Server listen on port ${port}`);

@@ -10,8 +10,8 @@ const AlunoSchema = User.extend({
   personal: {
     type: Schema.Types.ObjectId,
     required: true,
-    ref: 'Personal',
-  },
+    ref: 'Personal'
+  }
 });
 
 module.exports = mongoose.model('Aluno', AlunoSchema);

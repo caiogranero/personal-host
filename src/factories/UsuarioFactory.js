@@ -1,5 +1,6 @@
 const Aluno = require('../models/Aluno');
 const Personal = require('../models/Personal');
+const crypto = require('crypto');
 
 const UserFactory = {
   CreateAluno(nome, senha, email, personalId) {
@@ -9,7 +10,9 @@ const UserFactory = {
   },
 
   CreatePersonal(nome, senha, email) {
-    return new Personal({ nome, senha, email });
+    const token = crypto.randomBytes(16).toString('hex');
+
+    return new Personal({ nome, senha, email, token });
   },
 };
 
