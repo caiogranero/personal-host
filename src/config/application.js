@@ -10,10 +10,13 @@ const cors = require('cors');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const Middleware = require('../utils/Middleware');
+const env = require('dotenv')
 
+env.config(); 
 
 const config = environment.getSetup('development');
-mongoose.connect(config.db.uri);
+
+mongoose.connect(config.db.uri, config.db.auth);
 mongoose.Promise = global.Promise;
 
 app.set('superSecret', config.application.secret);

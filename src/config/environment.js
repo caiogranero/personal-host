@@ -9,8 +9,14 @@ module.exports = {
   production() {
     return Object.assign({}, this.application, {
       db: {
-        name: 'prod_db',
-        uri: process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/',
+        name: 'admin',
+        uri: process.env.COSMOSDB_CONNSTR+"?ssl=true&replicaSet=globaldb", 
+        auth: {
+          auth: {
+            user: process.env.COSMODDB_USER,
+            password: process.env.COSMOSDB_PASSWORD
+          }
+        }
       },
     });
   },
@@ -18,8 +24,14 @@ module.exports = {
   development() {
     return Object.assign({}, this.application, {
       db: {
-        name: 'dev_db',
-        uri: process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/',
+        name: 'admin',
+        uri: process.env.COSMOSDB_CONNSTR+"?ssl=true&replicaSet=globaldb", 
+        auth: {
+          auth: {
+            user: process.env.COSMODDB_USER,
+            password: process.env.COSMOSDB_PASSWORD
+          }
+        }
       },
     });
   },
@@ -27,8 +39,9 @@ module.exports = {
   test() {
     return Object.assign({}, this.application, {
       db: {
-        name: 'test_db',
-        uri: process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/',
+        name: 'admin',
+        uri: process.env.COSMOSDB_CONNSTR+"?ssl=true&replicaSet=globaldb", 
+        
       },
     });
   },
