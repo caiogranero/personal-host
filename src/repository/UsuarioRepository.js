@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const UsuarioSchema = require('../models/User');
 
 const usuarioRepository = {
-  FindById(id, fields = [], params = {}) {
+  FindById(id, fields = ["-senha"], params = {}) {
     return mongoose
       .model('Usuario', UsuarioSchema)
       .findById(Object.assign({ _id: id }, params))

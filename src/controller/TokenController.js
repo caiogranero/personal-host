@@ -11,6 +11,14 @@ const TokenController = {
 
       const payload = { name: user.nome, id: user._id, email: user.email, type: user._type };
 
+      if (user._type === "Personal") {
+        Object.assign(payload, { code: user.code });
+      }
+
+      if (user._type === "Aluno") {
+        Object.assign(payload, { personal: user.personal });
+      }
+
       const token = jwt.sign(payload, tokenKey, {
         expiresIn: '24h',
       });

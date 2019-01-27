@@ -1,5 +1,6 @@
 /* eslint no-param-reassign: ["error", { "props": false }] */
 
+const UsuarioSimplesModel = require('./models/UsuarioSimplesModel');
 const usuarioFactory = require('../factories/UsuarioFactory');
 const usuarioRepository = require('../repository/UsuarioRepository');
 const moment = require('moment');
@@ -93,10 +94,14 @@ const usuarioController = {
 
       const userId = currentUser.id;
 
-      return usuarioRepository.FindById(userId).then(usuario => {
-        return Promise.resolve(usuarioRepository.FindAlunos({ personal: new ObjectId(usuario.id.toString()) }));
+      return usuarioRepository.FindById(userId).then(personal => {
+        if (!personal || personal.length == 0) throw new Error("Personal não encontrado.");
+
+        return usuarioRepository.FindAlunos({ personal: new ObjectId(personal.id.toString()) }).then(alunos => {
+          return Promise.resolve(alunos.map(umAluno => new UsuarioSimplesModel(umAluno.nome, umAluno.updateAt, umAluno.medidas, umAluno.id, umAluno.genero)));
+        });
       })
-      .catch(error => Promise.reject("Personal não encontrado."));
+      .catch(error => Promise.reject(error.toString()));
     });
     
   },
