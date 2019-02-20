@@ -38,7 +38,11 @@ const UsuarioSchema = Entity.extend({
   },
   senha: {
     type: String,
-    required: true,
+    required: false,
+  },
+  facebookId: {
+    type: String,
+    required: false
   },
   email: {
     type: String,

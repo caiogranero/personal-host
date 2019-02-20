@@ -24,14 +24,14 @@ module.exports = {
   development() {
     return Object.assign({}, this.application, {
       db: {
-        name: 'admin',
-        uri: process.env.COSMOSDB_CONNSTR+"?ssl=true&replicaSet=globaldb", 
-        auth: {
-          auth: {
-            user: process.env.COSMODDB_USER,
-            password: process.env.COSMOSDB_PASSWORD
-          }
-        }
+        // name: 'admin',
+        uri: "mongodb://127.0.0.1:27017/"
+        // auth: {
+        //   auth: {
+        //     user: process.env.COSMODDB_USER,
+        //     password: process.env.COSMOSDB_PASSWORD
+        //   }
+        // }
       },
     });
   },

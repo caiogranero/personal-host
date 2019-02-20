@@ -12,8 +12,14 @@ const UserFactory = {
   CreatePersonal(nome, senha, email) {
     const token = crypto.randomBytes(16).toString('hex');
 
-    return new Personal({ nome, senha, email, token });
+    return new Personal({ nome, senha, email, code: token });
   },
+
+  CreatePersonal(nome, email, facebookId) {
+    const token = crypto.randomBytes(16).toString('hex');
+
+    return new Personal({ nome, email, facebookId, code: token })
+  }
 };
 
 module.exports = UserFactory;
