@@ -2,8 +2,14 @@ const mongoose = require('mongoose');
 const Exercicio = require('../src/models/Exercicio');
 const musculos = require('../src/models/Musculos');
 const fs = require('fs');
+const environment = require('../src/config/environment');
 
-Object.keys(object).forEach(element => {
+const config = environment.getSetup('development');
+
+mongoose.connect(config.db.uri, {dbName: 'personal'});
+mongoose.Promise = global.Promise;
+
+Object.keys(musculos).forEach(element => {
   const arquivo = element.toLowerCase();
 
   const file = JSON.parse(fs.readFileSync('./exercicios/'+arquivo+'.json', 'utf8'));
@@ -14,14 +20,19 @@ Object.keys(object).forEach(element => {
       observacoes.push(x);
     })
 
-    let exe = new Exercicio({
+    const nameCapitalized = arquivo.charAt(0).toUpperCase() + arquivo.slice(1)
+
+    const entity = new Exercicio({
       nome: element.nome,
       imagem: element.imagem,
       descricao: element.descricao,
       observacoes: observacoes,
-      musculo: element[object]
+      musculo: musculos[nameCapitalized]
     })
 
-    console.log(exe);
+    entity
+      .save()
+      .then(document => console.log(document.id))
+      .catch(error => console.log(error));
   });
 });

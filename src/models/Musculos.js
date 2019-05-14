@@ -9,7 +9,7 @@ const Musculos = Object.freeze({
   Gluteos: 7,
   Lombar: 8,
   Ombros: 9,
-  Panturrilha: 10,
+  Panturrilhas: 10,
   Peito: 11,
   Quadriceps: 12,
   Triceps: 13

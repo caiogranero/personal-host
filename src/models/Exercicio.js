@@ -1,5 +1,4 @@
 require('mongoose-schema-extend');
-const _ = require('lodash');
 const mongoose = require('mongoose');
 const Entity = require('./Entity');
 const Musculos = require('./Musculos');
