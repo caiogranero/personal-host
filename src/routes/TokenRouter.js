@@ -8,11 +8,6 @@ module.exports = (app) => {
     app.get('superSecret'),
   ]));
 
-  app.get(`${baseUrl}/facebook`, routerHandler(TokenController.GetFacebookToken, (req, res, next) => [
-    req.query,
-    app.get('superSecret'),
-  ]));
-
   // app.post(`${baseUrl}/verify`, routerHandler(TokenController.Verify, (req, res, next) => [
   //   req.headers.Authorization,
   //   app.get('superSecret'),

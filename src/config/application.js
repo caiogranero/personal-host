@@ -16,7 +16,7 @@ env.config();
 
 const config = environment.getSetup('development');
 
-mongoose.connect(config.db.uri, config.db.auth);
+mongoose.connect(config.db.uri, {dbName: 'personal'});
 mongoose.Promise = global.Promise;
 
 app.set('superSecret', config.application.secret);

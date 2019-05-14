@@ -10,10 +10,10 @@ const usuarioRepository = {
       .exec();
   },
 
-  GetByLogin({ email, senha }) {
+  GetByFirebaseId({ firebaseId }) {
     return mongoose
       .model('Usuario', UsuarioSchema)
-      .findOne({ email, senha })
+      .findOne({ firebaseId })
       .exec();
   },
 

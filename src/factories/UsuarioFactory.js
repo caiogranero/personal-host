@@ -1,24 +1,28 @@
-const Aluno = require('../models/Aluno');
-const Personal = require('../models/Personal');
-const crypto = require('crypto');
+const Aluno = require("../models/Aluno");
+const Personal = require("../models/Personal");
+const crypto = require("crypto");
 
 const UserFactory = {
-  CreateAluno(nome, senha, email, personalId) {
+  CreateAluno({ nome, email, personalId, firebaseId, tokenId }) {
     return new Aluno({
-      nome, senha, email, personal: personalId,
+      nome,
+      email,
+      personal: personalId,
+      firebaseId,
+      tokenId
     });
   },
 
-  CreatePersonal(nome, senha, email) {
-    const token = crypto.randomBytes(16).toString('hex');
+  CreatePersonal({ nome, email, firebaseId, tokenId }) {
+    const token = crypto.randomBytes(16).toString("hex");
 
-    return new Personal({ nome, senha, email, code: token });
-  },
-
-  CreatePersonal(nome, email, facebookId) {
-    const token = crypto.randomBytes(16).toString('hex');
-
-    return new Personal({ nome, email, facebookId, code: token })
+    return new Personal({
+      nome,
+      email,
+      code: token,
+      firebaseId,
+      tokenId
+    });
   }
 };
 

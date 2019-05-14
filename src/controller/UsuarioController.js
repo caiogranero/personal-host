@@ -8,21 +8,24 @@ const jwt = require('jsonwebtoken');
 const ObjectId = (require('mongoose').Types.ObjectId);
 
 const usuarioController = {
-  CreateUsuario({nome, senha, email, code}) {
+  CreateUsuario({nome, email, code, firebaseId, tokenId}) {
+    console.log(email)
+    //TODO: Buscar no firebase o usuário para ver se existe.
     if (code) {
-      return usuarioController.CreateAluno({nome, senha, email, code});
+      return usuarioController.CreateAluno({nome, email, firebaseId, tokenId, code});
     } else {
-      return usuarioController.CreatePersonal({nome, senha, email});
+      return usuarioController.CreatePersonal({nome, email, firebaseId, tokenId});
     }
   },
 
   CreatePersonal({
-    nome, senha, email
+    nome, email, firebaseId, tokenId
   }) {
     return usuarioRepository.FindUser({ email }).then(user => {
+      console.log(user);
       if (user && user.length > 0) throw new Error("Email já cadastrado.");
       
-      const usuario = usuarioFactory.CreatePersonal(nome, senha, email);
+      const usuario = usuarioFactory.CreatePersonal({nome,  email, firebaseId, tokenId});
 
       return usuario
         .save()
@@ -32,15 +35,16 @@ const usuarioController = {
   },
 
   CreateAluno({
-    nome, senha, email, code
+    nome, email, code, firebaseId, tokenId
   }) {
     return usuarioRepository.FindUser({ email }).then(user => {
+      console.log(user);
       if (user && user.length > 0) throw new Error("Email já cadastrado.");
       
       return usuarioRepository.GetPersonalByCode(code).then(personal => {
         if (!personal || personal.length === 0) throw new Error("Personal não encontrado.");
 
-        const aluno = usuarioFactory.CreateAluno(nome, senha, email, personal[0].id);
+        const aluno = usuarioFactory.CreateAluno({nome, email, personalId: personal[0].id, firebaseId, tokenId});
 
         personal[0].alunos.push(aluno.id);
 

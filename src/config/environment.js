@@ -24,12 +24,12 @@ module.exports = {
   development() {
     return Object.assign({}, this.application, {
       db: {
-        // name: 'admin',
-        uri: "mongodb://127.0.0.1:27017/"
+        name: 'personal',
+        uri: "mongodb+srv://cubeme:cubeme123@cluster0-kxwuc.azure.mongodb.net/personal?retryWrites=true"
         // auth: {
         //   auth: {
-        //     user: process.env.COSMODDB_USER,
-        //     password: process.env.COSMOSDB_PASSWORD
+        //     user: "cubeme",
+        //     password: "cubeme123"
         //   }
         // }
       },

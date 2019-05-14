@@ -36,23 +36,17 @@ const UsuarioSchema = Entity.extend({
     type: String,
     required: true,
   },
-  senha: {
+  tokenId: {
     type: String,
-    required: false,
+    required: false
   },
-  facebookId: {
+  firebaseId: {
     type: String,
     required: false
   },
   email: {
     type: String,
-    required: true,
-    validate: {
-      validator(v) {
-        return /\S+@\S+\.\S+/.test(v);
-      },
-      message: 'Email não está no formato válido',
-    },
+    required: true
   },
   nascimento: {
     type: Date,

@@ -1,37 +1,16 @@
 const UserRepository = require('../repository/UsuarioRepository');
-const usuarioFactory = require('../factories/UsuarioFactory');
 const jwt = require('jsonwebtoken');
 
 const TokenController = {
-  GetToken({ email, senha }, tokenKey) {
-    return UserRepository.GetByLogin({
-      email,
-      senha,
+  GetToken({ firebaseId }, tokenKey) {
+    return UserRepository.GetByFirebaseId({
+      firebaseId
     }).then((user) => {
       if (!user) return Promise.reject(new Error('Usuário não encontrado.'));
 
       const token = TokenController.GerarPayload(user, tokenKey);
 
       return Promise.resolve(token);
-    }).catch(error => Promise.reject(error));
-  },
-
-  GetFacebookToken({ nome, email, facebookId }, tokenKey) {
-    return UserRepository.FindUser({
-      facebookId, email 
-    }).then((user) => {
-      if (!user || user.length == 0) {
-        user = usuarioFactory.CreatePersonal(nome, email, facebookId);
-        return user
-          .save()
-          .then(document => {
-            const token = TokenController.GerarPayload(document, tokenKey);
-            return Promise.resolve(token);
-          });
-      } else {
-        const token = TokenController.GerarPayload(user[0], tokenKey);
-        return Promise.resolve(token);
-      }     
     }).catch(error => Promise.reject(error));
   },
 
@@ -54,7 +33,7 @@ const TokenController = {
   },
 
   GerarPayload(user, tokenKey) {
-    const payload = { name: user.nome, id: user._id, email: user.email, type: user._type };
+    const payload = { name: user.nome, id: user._id, email: user.email, type: user._type, firebaseId: user.firebaseId };
     
     if (user._type === "Personal") {
       Object.assign(payload, { code: user.code });
