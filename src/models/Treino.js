@@ -24,6 +24,12 @@ const TreinoExercicioSchema = new Schema({
   }
 });
 
+const GrupoExercicioSchema = new Schema({
+  exercicios: {
+    type: [TreinoExercicioSchema]
+  }
+});
+
 const TreinoSchema = Entity.extend({
   nome: {
     type: String
@@ -41,8 +47,8 @@ const TreinoSchema = Entity.extend({
   dataFinal: {
     type: Date
   },
-  exercicios: {
-    type: [TreinoExercicioSchema]
+  grupos: {
+    type: [GrupoExercicioSchema]
   },
   personal: {
     type: [Schema.Types.ObjectId],
