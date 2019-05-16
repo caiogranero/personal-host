@@ -7,14 +7,4 @@ module.exports = (app) => {
     req.query,
     app.get('superSecret'),
   ]));
-
-  // app.post(`${baseUrl}/verify`, routerHandler(TokenController.Verify, (req, res, next) => [
-  //   req.headers.Authorization,
-  //   app.get('superSecret'),
-  // ]));
-
-  // app.post(`${baseUrl}/decode`, routerHandler(TokenController.Decode, (req, res, next) => [
-  //   req.headers.Authorization,
-  //   app.get('superSecret'),
-  // ]));
 };

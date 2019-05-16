@@ -1,8 +1,10 @@
 require('mongoose-schema-extend');
-const _ = require('lodash');
 const mongoose = require('mongoose');
 const Entity = require('./Entity');
 const Objetivos = require('./Objetivos');
+const {
+  Schema,
+} = mongoose;
 
 const TreinoExercicioSchema = new Schema({
   exercicio: {
@@ -24,7 +26,11 @@ const TreinoExercicioSchema = new Schema({
   }
 });
 
+
 const GrupoExercicioSchema = new Schema({
+  nome: {
+    type: String
+  },
   exercicios: {
     type: [TreinoExercicioSchema]
   }
@@ -34,7 +40,7 @@ const TreinoSchema = Entity.extend({
   nome: {
     type: String
   },
-  objetivos: {
+  objetivo: {
     type: Number,
     enum: Object.values(Objetivos),
   },
