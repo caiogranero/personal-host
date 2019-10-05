@@ -1,1 +1,63 @@
-[{"nome":"Bom dia","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/Bom_dia.jpg","descricao":"Descrição: Este é um movimento bastante fácil de realizar, com barra ou com halteres. É o ideal para quem não tem acesso a um banco de hiperextensões. Não se esqueça de manter as costas retas ao longo de todo o movimento, ao mesmo tempo que mantém uma ligeira curvatura (côncava) na zona lombar.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"]},{"nome":"Hiperextensões","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/hiperextensões.jpg","descricao":"Descrição: Este é um exercícios bastante fácil de realizar, com a vantagem de que não impõe tensão / carga na parte inferior das costas, tal como acontece nos exercícios peso morto e bom dia. Eu prefiro as hiperextensões em detrimento dos restantes  movimentos, porque pode-se facilmente adicionar discos e segurá-los contra o seu peito.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"]},{"nome":"Hiperextensões em banco inclinado","descricao":"Descrição: Esta variação do exercício hiperextensões realiza-se num banco inclinado ao invés de num banco plano. Trata-se de uma variação mais fácil de realizar do que com um banco horizontal e portanto é mais indicado para quem vai realizar exercícios de hiperextensões pela primeira vez.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"]},{"nome":"Hiperextensões em máquina","descricao":"Descrição: Esta é outra variação do exercício hiperextensão, também chamada de extensão lombar em máquina. Pelo fato de ser realizado numa máquina, este exercício permite o ajuste direto da carga a levantar. É especialmente indicado para aqueles que têm problemas lombares e dificuldades em realizar os restantes tipos de exercícios de hiperextensões.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"]},{"nome":"Flutter kicks","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/flutter-kicks.jpg","descricao":"Descrição: Segundo um estudo em que foram realizadas análises EMG, este exercício é o que trabalha a zona lombar de forma mais eficiente. Tem também a grande vantagem de poder ser realizado em praticamente qualquer lugar. É possível aumentar a resistência com a recurso a caneleiras.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"]},{"nome":"Super-homem","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/superman.jpg","descricao":"Descrição: Mais um excelente movimento para trabalhar e fortalecer a região lombar, e também é de execução técnica muito fácil e pode ser realizado em praticamente qualquer local. Aqui também é possível aumentar a resistência segurando halteres com as mãos e aplicando caneleiras.","topicos":["Tipo de exercício: Movimento composto (poliarticular)","Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"]},{"nome":"Elevação alternada de segmentos","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/bird-dog.jpg","descricao":"Descrição: Este exercício encontra-se ao nível dos melhores para trabalhar a zona lombar. É mais um movimento que pode realizar até no conforto do seu lar. Caso assim o deseje, poderá vir a adicionar resistência extra utilizando caneleiras e segurando um halter com a braço que estiver a levantar.","topicos":["Tipo de exercício: Movimento composto (poliarticular)","Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"]}]
+[
+    {
+        "nome": "Bom dia",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/Bom_dia.jpg",
+        "descricao": "Descrição: Este é um movimento bastante fácil de realizar, com barra ou com halteres. É o ideal para quem não tem acesso a um banco de hiperextensões. Não se esqueça de manter as costas retas ao longo de todo o movimento, ao mesmo tempo que mantém uma ligeira curvatura (côncava) na zona lombar.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"
+        ]
+    },
+    {
+        "nome": "Hiperextensões",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/hiperextensões.jpg",
+        "descricao": "Descrição: Este é um exercícios bastante fácil de realizar, com a vantagem de que não impõe tensão / carga na parte inferior das costas, tal como acontece nos exercícios peso morto e bom dia. Eu prefiro as hiperextensões em detrimento dos restantes  movimentos, porque pode-se facilmente adicionar discos e segurá-los contra o seu peito.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"
+        ]
+    },
+    {
+        "nome": "Hiperextensões em banco inclinado",
+        "descricao": "Descrição: Esta variação do exercício hiperextensões realiza-se num banco inclinado ao invés de num banco plano. Trata-se de uma variação mais fácil de realizar do que com um banco horizontal e portanto é mais indicado para quem vai realizar exercícios de hiperextensões pela primeira vez.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"
+        ]
+    },
+    {
+        "nome": "Hiperextensões em máquina",
+        "descricao": "Descrição: Esta é outra variação do exercício hiperextensão, também chamada de extensão lombar em máquina. Pelo fato de ser realizado numa máquina, este exercício permite o ajuste direto da carga a levantar. É especialmente indicado para aqueles que têm problemas lombares e dificuldades em realizar os restantes tipos de exercícios de hiperextensões.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"
+        ]
+    },
+    {
+        "nome": "Flutter kicks",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/flutter-kicks.jpg",
+        "descricao": "Descrição: Segundo um estudo em que foram realizadas análises EMG, este exercício é o que trabalha a zona lombar de forma mais eficiente. Tem também a grande vantagem de poder ser realizado em praticamente qualquer lugar. É possível aumentar a resistência com a recurso a caneleiras.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"
+        ]
+    },
+    {
+        "nome": "Super-homem",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/superman.jpg",
+        "descricao": "Descrição: Mais um excelente movimento para trabalhar e fortalecer a região lombar, e também é de execução técnica muito fácil e pode ser realizado em praticamente qualquer local. Aqui também é possível aumentar a resistência segurando halteres com as mãos e aplicando caneleiras.",
+        "topicos": [
+            "Tipo de exercício: Movimento composto (poliarticular)",
+            "Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"
+        ]
+    },
+    {
+        "nome": "Elevação alternada de segmentos",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/bird-dog.jpg",
+        "descricao": "Descrição: Este exercício encontra-se ao nível dos melhores para trabalhar a zona lombar. É mais um movimento que pode realizar até no conforto do seu lar. Caso assim o deseje, poderá vir a adicionar resistência extra utilizando caneleiras e segurando um halter com a braço que estiver a levantar.",
+        "topicos": [
+            "Tipo de exercício: Movimento composto (poliarticular)",
+            "Músculos de acção principal: Eretores da espinha, glúteo maior, isquiotibiais"
+        ]
+    }
+]

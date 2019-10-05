@@ -4,46 +4,64 @@ const usuarioFactory = require('../factories/UsuarioFactory');
 const usuarioRepository = require('../repository/UsuarioRepository');
 const moment = require('moment');
 const jwt = require('jsonwebtoken');
-const ObjectId = (require('mongoose').Types.ObjectId);
+const ObjectId = require('mongoose').Types.ObjectId;
 
 const usuarioController = {
-  CreateUsuario({nome, email, code, firebaseId, tokenId}) {
-    console.log(email)
+  CreateUsuario({ nome, email, code, firebaseId, tokenId }) {
+    console.log(email);
     //TODO: Buscar no firebase o usuário para ver se existe.
     if (code) {
-      return usuarioController.CreateAluno({nome, email, firebaseId, tokenId, code});
+      return usuarioController.CreateAluno({
+        nome,
+        email,
+        firebaseId,
+        tokenId,
+        code
+      });
     } else {
-      return usuarioController.CreatePersonal({nome, email, firebaseId, tokenId});
+      return usuarioController.CreatePersonal({
+        nome,
+        email,
+        firebaseId,
+        tokenId
+      });
     }
   },
 
-  CreatePersonal({
-    nome, email, firebaseId, tokenId
-  }) {
+  CreatePersonal({ nome, email, firebaseId, tokenId }) {
     return usuarioRepository.FindUser({ email }).then(user => {
       console.log(user);
-      if (user && user.length > 0) throw new Error("Email já cadastrado.");
-      
-      const usuario = usuarioFactory.CreatePersonal({nome,  email, firebaseId, tokenId});
+      if (user && user.length > 0) throw new Error('Email já cadastrado.');
+
+      const usuario = usuarioFactory.CreatePersonal({
+        nome,
+        email,
+        firebaseId,
+        tokenId
+      });
 
       return usuario
         .save()
         .then(document => Promise.resolve(document.id))
         .catch(error => Promise.reject(error));
-    })
+    });
   },
 
-  CreateAluno({
-    nome, email, code, firebaseId, tokenId
-  }) {
+  CreateAluno({ nome, email, code, firebaseId, tokenId }) {
     return usuarioRepository.FindUser({ email }).then(user => {
       console.log(user);
-      if (user && user.length > 0) throw new Error("Email já cadastrado.");
-      
-      return usuarioRepository.GetPersonalByCode(code).then(personal => {
-        if (!personal || personal.length === 0) throw new Error("Personal não encontrado.");
+      if (user && user.length > 0) throw new Error('Email já cadastrado.');
 
-        const aluno = usuarioFactory.CreateAluno({nome, email, personalId: personal[0].id, firebaseId, tokenId});
+      return usuarioRepository.GetPersonalByCode(code).then(personal => {
+        if (!personal || personal.length === 0) throw new Error('Personal não encontrado.');
+
+        const aluno = usuarioFactory.CreateAluno({
+          nome,
+          email,
+          personalId: personal[0].id,
+          firebaseId,
+          tokenId
+        });
 
         personal[0].alunos.push(aluno.id);
 
@@ -52,18 +70,16 @@ const usuarioController = {
             return Promise.resolve(docs[1].id);
           })
           .catch(error => Promise.reject(error));
-        });
-      })
+      });
+    });
   },
-  
+
   ListarTodos() {
     return usuarioRepository.ListAll();
   },
 
-  EditarUsuario(usuarioId, {
-    nascimento, genero, telefone, altura,
-  }) {
-    return usuarioRepository.FindById(usuarioId).then((usuario) => {
+  EditarUsuario(usuarioId, { nascimento, genero, telefone, altura }) {
+    return usuarioRepository.FindById(usuarioId).then(usuario => {
       if (nascimento && nascimento !== usuario.nascimento) {
         usuario.set({ nascimento: moment(nascimento) });
       }
@@ -97,24 +113,28 @@ const usuarioController = {
 
       const userId = currentUser.id;
 
-      return usuarioRepository.FindById(userId).then(personal => {
-        if (!personal || personal.length == 0) throw new Error("Personal não encontrado.");
+      return usuarioRepository
+        .FindById(userId)
+        .then(personal => {
+          if (!personal || personal.length == 0) throw new Error('Personal não encontrado.');
 
-        return usuarioRepository.FindAlunos({ personal: new ObjectId(personal.id.toString()) }).then(alunos => {
-          return Promise.resolve(alunos.map(umAluno => { 
-            return { 
-              nome: umAluno.nome, 
-              updateAt: umAluno.updateAt, 
-              medidas: umAluno.medidas, 
-              _id: umAluno.id,genero: umAluno.genero 
-            }
-          }));
-        });
-      })
-      .catch(error => Promise.reject(error.toString()));
+          return usuarioRepository.FindAlunos({ personal: new ObjectId(personal.id.toString()) }).then(alunos => {
+            return Promise.resolve(
+              alunos.map(umAluno => {
+                return {
+                  nome: umAluno.nome,
+                  updateAt: umAluno.updateAt,
+                  medidas: umAluno.medidas,
+                  _id: umAluno.id,
+                  genero: umAluno.genero
+                };
+              })
+            );
+          });
+        })
+        .catch(error => Promise.reject(error.toString()));
     });
-    
-  },
+  }
 };
 
 module.exports = usuarioController;

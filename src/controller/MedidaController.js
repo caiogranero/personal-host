@@ -4,7 +4,7 @@ const usuarioRepository = require('../repository/UsuarioRepository');
 
 const medidaController = {
   NovaMedida(usuarioId, { nome }) {
-    return usuarioRepository.FindById(usuarioId).then((usuario) => {
+    return usuarioRepository.FindById(usuarioId).then(usuario => {
       if (usuario.medidas.find(d => d.nome.toLowerCase().trim() === nome.toLowerCase().trim())) {
         return Promise.reject(new Error('Medida já cadastrada para esse usuário'));
       }
@@ -19,13 +19,11 @@ const medidaController = {
   },
 
   ListarMedidas(usuarioId) {
-    return usuarioRepository
-      .FindById(usuarioId, ['medidas'], { 'medidas.ativo': true })
-      .then(usuario => Promise.resolve(usuario));
+    return usuarioRepository.FindById(usuarioId, ['medidas'], { 'medidas.ativo': true }).then(usuario => Promise.resolve(usuario));
   },
 
   AdicionarValorEmMedida(usuarioId, medidaId, { data, valor }) {
-    return usuarioRepository.FindById(usuarioId).then((usuario) => {
+    return usuarioRepository.FindById(usuarioId).then(usuario => {
       const medida = usuario.medidas.id(medidaId);
 
       medida.valores.push({ data: new Date(data), valor: Number(valor) });
@@ -38,7 +36,7 @@ const medidaController = {
   },
 
   RemoverMedida(usuarioId, medidaId) {
-    return usuarioRepository.FindById(usuarioId).then((usuario) => {
+    return usuarioRepository.FindById(usuarioId).then(usuario => {
       const medida = usuario.medidas.id(medidaId);
 
       if (medida.valores.length > 0) {
@@ -52,7 +50,7 @@ const medidaController = {
         .then(() => Promise.resolve(true))
         .catch(error => Promise.reject(error));
     });
-  },
+  }
 };
 
 module.exports = medidaController;

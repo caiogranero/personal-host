@@ -4,8 +4,7 @@ const usuarioRepository = require('../repository/UsuarioRepository');
 
 const remedioController = {
   NovoRemedio(usuarioId, { nome, descricao }) {
-    return usuarioRepository.FindById(usuarioId).then((usuario) => {
-      
+    return usuarioRepository.FindById(usuarioId).then(usuario => {
       if (usuario.remedios.find(d => d.nome.toLowerCase().trim() === nome.toLowerCase().trim())) {
         return Promise.reject(new Error('Remédio já cadastrado para esse usuário'));
       }
@@ -20,13 +19,11 @@ const remedioController = {
   },
 
   ListarRemedios(usuarioId) {
-    return usuarioRepository
-      .FindById(usuarioId, ['remedios'])
-      .then(usuario => Promise.resolve(usuario));
+    return usuarioRepository.FindById(usuarioId, ['remedios']).then(usuario => Promise.resolve(usuario));
   },
 
   RemoverRemedio(usuarioId, remedioId) {
-    return usuarioRepository.FindById(usuarioId).then((usuario) => {
+    return usuarioRepository.FindById(usuarioId).then(usuario => {
       usuario.remedios.id(remedioId).remove();
 
       return usuario

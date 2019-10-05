@@ -1,1 +1,56 @@
-[{"nome":"Step-up","imagem":"https://www.musculacao.net/exercicios-musculacao/exercicios-de-pernas-gluteos/step-up/","descricao":"Descrição: Um excelente exercício composto para trabalhar os glúteos. Assegure-se de descer do banco de forma controlada. Adicione resistência extra em forma de halteres ou barra à medida que se for tornando mais forte no exercício.","topicos":["Tipo de exercício: Movimento composto (poliarticular)","Músculos de acção principal: Glúteo máximo, quadrícepsMúsculos de acção secundária: Isquiotibiais, adutores, eretores da espinha, reto abdominal"]},{"nome":"Extensão do quadril / glúteos em máquina","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/Extensão_do_quadril_glúteos_máquina.jpg","descricao":"Descrição: Este exercício de isolamento poderá ser útil para os que sentem necessidade de realizar mais trabalho na área dos glúteos, ou necessitam de aprender a sentir ou recrutar mais os glúteos durante exercícios como o agachamento e peso morto. A máquina proporciona um ângulo fixo e estável ao longo de todo o movimento.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Glúteo máximo"]},{"nome":"Extensão do quadril / glúteos em polia baixa","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/extensão_do_quadril_glúteos_polia_baixa.jpg","descricao":"Descrição: Esta variação do exercício extensão do quadril é uma excelente alternativa para quando a máquina específica não se encontra disponível no seu ginásio. Também proporciona a vantagem de manter a tensão constante ao longo de toda a extensão do movimento.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Glúteo máximo"]},{"nome":"Extensão do quadril / glúteos no solo","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/extensao_do_quadril_glúteo_no_solo.jpg","descricao":"Descrição: Como poderá facilmente constatar, esta variação tem a vantagem de poder ser realizada praticamente em qualquer lugar, não necessita de o fazer num ginásio. Caso pretenda aumentar a dificuldade, pode utilizar caneleiras para aumentar a resistência.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Glúteo máximo"]},{"nome":"Extensão do quadril / glúteos com pés apoiados no chão","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/extensao_do_quadril_glúteos_no_solo.jpg","descricao":"Descrição: Este exercício para além de trabalhar os glúteos, trabalha também os músculos posteriores da coxa (isquiotibiais). Tem também a vantagem de poder ser realizado em praticamente qualquer local. É possível aumentar a resistência colocando um disco de peso, ou uma barra com pesos na área da coxa. Existe também uma variação deste exercício em que se apoia o tronco num banco, o que facilita a utilização de peso extra.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Glúteo máximo, isquiotibiais"]},{"nome":"Extensão do quadril / glúteos com pés apoiados em banco","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/extensão_do_quadril_glúteos_em_banco_glúteos.jpg","descricao":"Descrição: Mais uma variação que não necessita de equipamento especial. Qualquer plataforma elevada e lisa serve para o efeito.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Glúteo máximo, isquiotibiais"]}]
+[
+    {
+        "nome": "Step-up",
+        "imagem": "https://www.musculacao.net/exercicios-musculacao/exercicios-de-pernas-gluteos/step-up/",
+        "descricao": "Descrição: Um excelente exercício composto para trabalhar os glúteos. Assegure-se de descer do banco de forma controlada. Adicione resistência extra em forma de halteres ou barra à medida que se for tornando mais forte no exercício.",
+        "topicos": [
+            "Tipo de exercício: Movimento composto (poliarticular)",
+            "Músculos de acção principal: Glúteo máximo, quadrícepsMúsculos de acção secundária: Isquiotibiais, adutores, eretores da espinha, reto abdominal"
+        ]
+    },
+    {
+        "nome": "Extensão do quadril / glúteos em máquina",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/Extensão_do_quadril_glúteos_máquina.jpg",
+        "descricao": "Descrição: Este exercício de isolamento poderá ser útil para os que sentem necessidade de realizar mais trabalho na área dos glúteos, ou necessitam de aprender a sentir ou recrutar mais os glúteos durante exercícios como o agachamento e peso morto. A máquina proporciona um ângulo fixo e estável ao longo de todo o movimento.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Glúteo máximo"
+        ]
+    },
+    {
+        "nome": "Extensão do quadril / glúteos em polia baixa",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/extensão_do_quadril_glúteos_polia_baixa.jpg",
+        "descricao": "Descrição: Esta variação do exercício extensão do quadril é uma excelente alternativa para quando a máquina específica não se encontra disponível no seu ginásio. Também proporciona a vantagem de manter a tensão constante ao longo de toda a extensão do movimento.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Glúteo máximo"
+        ]
+    },
+    {
+        "nome": "Extensão do quadril / glúteos no solo",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/extensao_do_quadril_glúteo_no_solo.jpg",
+        "descricao": "Descrição: Como poderá facilmente constatar, esta variação tem a vantagem de poder ser realizada praticamente em qualquer lugar, não necessita de o fazer num ginásio. Caso pretenda aumentar a dificuldade, pode utilizar caneleiras para aumentar a resistência.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Glúteo máximo"
+        ]
+    },
+    {
+        "nome": "Extensão do quadril / glúteos com pés apoiados no chão",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/extensao_do_quadril_glúteos_no_solo.jpg",
+        "descricao": "Descrição: Este exercício para além de trabalhar os glúteos, trabalha também os músculos posteriores da coxa (isquiotibiais). Tem também a vantagem de poder ser realizado em praticamente qualquer local. É possível aumentar a resistência colocando um disco de peso, ou uma barra com pesos na área da coxa. Existe também uma variação deste exercício em que se apoia o tronco num banco, o que facilita a utilização de peso extra.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Glúteo máximo, isquiotibiais"
+        ]
+    },
+    {
+        "nome": "Extensão do quadril / glúteos com pés apoiados em banco",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/extensão_do_quadril_glúteos_em_banco_glúteos.jpg",
+        "descricao": "Descrição: Mais uma variação que não necessita de equipamento especial. Qualquer plataforma elevada e lisa serve para o efeito.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Glúteo máximo, isquiotibiais"
+        ]
+    }
+]

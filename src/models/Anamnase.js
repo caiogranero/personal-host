@@ -1,5 +1,5 @@
-require("mongoose-schema-extend");
-const mongoose = require("mongoose");
+require('mongoose-schema-extend');
+const mongoose = require('mongoose');
 const User = require('./User');
 
 const { Schema } = mongoose;
@@ -8,8 +8,8 @@ const AlunoSchema = User.extend({
   personal: {
     type: Schema.Types.ObjectId,
     required: true,
-    ref: "Personal"
+    ref: 'Personal'
   }
 });
 
-module.exports = mongoose.model("Aluno", AlunoSchema);
+module.exports = mongoose.model('Aluno', AlunoSchema);

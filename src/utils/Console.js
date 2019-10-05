@@ -11,7 +11,7 @@ const Console = {
 
   info(message) {
     console.info(`${new Date().toLocaleString()} - ${message}`);
-  },
+  }
 };
 
 module.exports = Console;

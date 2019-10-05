@@ -1,1 +1,43 @@
-[{"nome":"Elevações de gémeos / panturrilhas em pé","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/elevações_de_gémeos_panturrilhas_em_pé.jpg","descricao":"Descrição: É imperativo não forçar o “fecho” da articulação do joelho, (especialmente se estiver a usar cargas elevadas) de forma a prevenir lesões.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Gémeos (gastrocnémio medial, gastrocnémio lateral)Músculo de acção secundária: Sóleo"]},{"nome":"Elevações de gémeos / panturrilhas tipo burro","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/elevações_de_gémeos_tipo_burro_donkey_calf_raises.jpg","descricao":"Descrição: Segundos os resultados de um estudo em que foram realizadas análises EMG, esta é a variação de elevações de gémeos mais eficiente para treinar os gémeos.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Gémeos (gastrocnémio medial, gastrocnémio lateral)Músculo de acção secundária: Sóleo"]},{"nome":"Elevações de gémeos / panturrilhas em máquina","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/gémeos_panturrilha_em_máquina.jpg","descricao":"Descrição: Esta variação é a ideal para quem tem problemas lombares como hérnias discais e não pode portanto suportar grandes cargas.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Gémeos (gastrocnémio medial, gastrocnémio lateral)Músculo de acção secundária: Sóleo"]},{"nome":"Elevações de gémeos / panturrilhas sentado","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/gémeos_panturrilha_sentado.jpg","descricao":"Descrição: Esta variação do exercício elevações de gémeos trabalha em maior grau o músculo sóleo, que se encontra detrás dos gastrocnémios medial e lateral. Deverá formar parte de um programa que inclua treinos de pernas.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: SóleoMúsculo de acção secundária: Gémeos (gastrocnémio medial, gastrocnémio lateral)"]},{"nome":"Regressar à página principal dos exercícios","descricao":"","topicos":[]}]
+[
+    {
+        "nome": "Elevações de gémeos / panturrilhas em pé",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/elevações_de_gémeos_panturrilhas_em_pé.jpg",
+        "descricao": "Descrição: É imperativo não forçar o “fecho” da articulação do joelho, (especialmente se estiver a usar cargas elevadas) de forma a prevenir lesões.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Gémeos (gastrocnémio medial, gastrocnémio lateral)Músculo de acção secundária: Sóleo"
+        ]
+    },
+    {
+        "nome": "Elevações de gémeos / panturrilhas tipo burro",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/elevações_de_gémeos_tipo_burro_donkey_calf_raises.jpg",
+        "descricao": "Descrição: Segundos os resultados de um estudo em que foram realizadas análises EMG, esta é a variação de elevações de gémeos mais eficiente para treinar os gémeos.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Gémeos (gastrocnémio medial, gastrocnémio lateral)Músculo de acção secundária: Sóleo"
+        ]
+    },
+    {
+        "nome": "Elevações de gémeos / panturrilhas em máquina",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/gémeos_panturrilha_em_máquina.jpg",
+        "descricao": "Descrição: Esta variação é a ideal para quem tem problemas lombares como hérnias discais e não pode portanto suportar grandes cargas.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Gémeos (gastrocnémio medial, gastrocnémio lateral)Músculo de acção secundária: Sóleo"
+        ]
+    },
+    {
+        "nome": "Elevações de gémeos / panturrilhas sentado",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/gémeos_panturrilha_sentado.jpg",
+        "descricao": "Descrição: Esta variação do exercício elevações de gémeos trabalha em maior grau o músculo sóleo, que se encontra detrás dos gastrocnémios medial e lateral. Deverá formar parte de um programa que inclua treinos de pernas.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: SóleoMúsculo de acção secundária: Gémeos (gastrocnémio medial, gastrocnémio lateral)"
+        ]
+    },
+    {
+        "nome": "Regressar à página principal dos exercícios",
+        "descricao": "",
+        "topicos": []
+    }
+]

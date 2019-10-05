@@ -5,17 +5,19 @@ const TokenController = {
   GetToken({ firebaseId }, tokenKey) {
     return UserRepository.GetByFirebaseId({
       firebaseId
-    }).then((user) => {
-      if (!user) return Promise.reject(new Error('Usuário não encontrado.'));
+    })
+      .then(user => {
+        if (!user) return Promise.reject(new Error('Usuário não encontrado.'));
 
-      const token = TokenController.GerarPayload(user, tokenKey);
+        const token = TokenController.GerarPayload(user, tokenKey);
 
-      return Promise.resolve(token);
-    }).catch(error => Promise.reject(error));
+        return Promise.resolve(token);
+      })
+      .catch(error => Promise.reject(error));
   },
 
   Verify(token, tokenKey) {
-    return jwt.verify(token, tokenKey, (err) => {
+    return jwt.verify(token, tokenKey, err => {
       if (err) {
         return Promise.reject(Object.assign({ hasSession: false }, err));
       }
@@ -33,18 +35,24 @@ const TokenController = {
   },
 
   GerarPayload(user, tokenKey) {
-    const payload = { name: user.nome, id: user._id, email: user.email, type: user._type, firebaseId: user.firebaseId };
-    
-    if (user._type === "Personal") {
+    const payload = {
+      name: user.nome,
+      id: user._id,
+      email: user.email,
+      type: user._type,
+      firebaseId: user.firebaseId
+    };
+
+    if (user._type === 'Personal') {
       Object.assign(payload, { code: user.code });
     }
 
-    if (user._type === "Aluno") {
+    if (user._type === 'Aluno') {
       Object.assign(payload, { personal: user.personal });
     }
 
     const token = jwt.sign(payload, tokenKey, {
-      expiresIn: '24h',
+      expiresIn: '24h'
     });
 
     return token;

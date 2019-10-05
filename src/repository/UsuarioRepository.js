@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const UsuarioSchema = require('../models/User');
 
 const usuarioRepository = {
-  FindById(id, fields = ["-senha"], params = {}) {
+  FindById(id, fields = ['-senha'], params = {}) {
     return mongoose
       .model('Usuario', UsuarioSchema)
       .findById(Object.assign({ _id: id }, params))
@@ -45,6 +45,6 @@ const usuarioRepository = {
       .model('Usuario', UsuarioSchema)
       .find(Object.assign({ _type: 'Aluno' }, query))
       .exec();
-  },
+  }
 };
 module.exports = usuarioRepository;

@@ -1,11 +1,7 @@
 const avaliacaoController = {
-  Editar(userId, avaliacaoId) {
-    
-  },
+  Editar(userId, avaliacaoId) {},
 
-  Criar(userId, tipo) {
-    
-  }
-}
+  Criar(userId, tipo) {}
+};
 
 module.exports = avaliacaoController;

@@ -1,6 +1,6 @@
-const Aluno = require("../models/Aluno");
-const Personal = require("../models/Personal");
-const crypto = require("crypto");
+const Aluno = require('../models/Aluno');
+const Personal = require('../models/Personal');
+const crypto = require('crypto');
 
 const UserFactory = {
   CreateAluno({ nome, email, personalId, firebaseId, tokenId }) {
@@ -14,7 +14,7 @@ const UserFactory = {
   },
 
   CreatePersonal({ nome, email, firebaseId, tokenId }) {
-    const token = crypto.randomBytes(16).toString("hex");
+    const token = crypto.randomBytes(16).toString('hex');
 
     return new Personal({
       nome,

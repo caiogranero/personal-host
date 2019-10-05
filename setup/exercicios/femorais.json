@@ -1,1 +1,49 @@
-[{"nome":"Peso morto / levantamento terra a pernas retas","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/peso_morto_pernas_retas.jpg","descricao":"Descrição: Este exercício é uma variação do peso morto clássico. Nesta variação, mantém-se a pernas quase completamente retas e deverá mantê-las na mesma posição ao longo de toda a extensão do movimento. Utilize um peso que consegue controlar bem e mantenha a curvatura natural da zona lombar.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Isquiotibiais ou bíceps femoral (músculos semitendíneo e semimembranáceo), glúteos e eretores da espinha"]},{"nome":"Bom dia","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/bom_dia.jpg","descricao":"Descrição: A imagem é auto-explicativa, este exercício é bastante semelhante ao peso morto a pernas retas. Tenha em conta o seu nível de flexibilidade e estrutura física quando for estabelecer até que ponto pode descer. É muito importante que mantenha as costas ligeiramente arqueadas ao longo de todo o movimento","topicos":["Tipo de exercício: Movimento composto (poliarticular)","Músculos de acção principal: Isquiotibiais (músculos posteriores da coxa), glúteo maior e eretores da espinha"]},{"nome":"Bom dia a pernas retas","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/bom_dia_2.jpg","descricao":"Variação: Nesta variação, as pernas permanecem retas (mas com os joelhos ligeiramente fletidos) ao longo de todo o movimento. Mantenha sempre a curvatura natural das costas. Desça apenas até ao ponto em que começa a perder a curvatura natural das costas.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Isquiotibiais (músculos posteriores da coxa), Glúteo maior e eretores da espinha"]},{"nome":" Flexão de pernas","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/flexao_da_perna_deitado.jpg","descricao":"Descrição: Embora os músculos isquiotibiais não sejam muito volumosos, ainda assim constituem uma boa parte do volume total da coxa e desempenham um papel essencial em muitos desportos. Os isquiotibiais são compostos pelos músculos semitendíneo e semimembranáceo.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Isquiotibiais / Bíceps femorais (músculos posteriores da coxa)","Músculos de acção secundária: Gastrocnémios (gémeos/panturrilhas)"]},{"nome":"Flexão de pernas em pé","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/flexao_de_perna_em_pe.jpg","descricao":"Variação: Nesta variação de flexão de perna, treina-se apenas uma perna de cada vez, o que pode permitir que se concentre mais em sentir e trabalhar o músculo-alvo. Não se esqueça de realizar uma boa contracção de pico no final do movimento.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Isquiotibiais / Bíceps femorais (músculos posteriores da coxa)","Músculos de acção secundária: Gastrocnémios (gémeos/panturrilhas)"]}]
+[
+    {
+        "nome": "Peso morto / levantamento terra a pernas retas",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/peso_morto_pernas_retas.jpg",
+        "descricao": "Descrição: Este exercício é uma variação do peso morto clássico. Nesta variação, mantém-se a pernas quase completamente retas e deverá mantê-las na mesma posição ao longo de toda a extensão do movimento. Utilize um peso que consegue controlar bem e mantenha a curvatura natural da zona lombar.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Isquiotibiais ou bíceps femoral (músculos semitendíneo e semimembranáceo), glúteos e eretores da espinha"
+        ]
+    },
+    {
+        "nome": "Bom dia",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/bom_dia.jpg",
+        "descricao": "Descrição: A imagem é auto-explicativa, este exercício é bastante semelhante ao peso morto a pernas retas. Tenha em conta o seu nível de flexibilidade e estrutura física quando for estabelecer até que ponto pode descer. É muito importante que mantenha as costas ligeiramente arqueadas ao longo de todo o movimento",
+        "topicos": [
+            "Tipo de exercício: Movimento composto (poliarticular)",
+            "Músculos de acção principal: Isquiotibiais (músculos posteriores da coxa), glúteo maior e eretores da espinha"
+        ]
+    },
+    {
+        "nome": "Bom dia a pernas retas",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/bom_dia_2.jpg",
+        "descricao": "Variação: Nesta variação, as pernas permanecem retas (mas com os joelhos ligeiramente fletidos) ao longo de todo o movimento. Mantenha sempre a curvatura natural das costas. Desça apenas até ao ponto em que começa a perder a curvatura natural das costas.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Isquiotibiais (músculos posteriores da coxa), Glúteo maior e eretores da espinha"
+        ]
+    },
+    {
+        "nome": " Flexão de pernas",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/flexao_da_perna_deitado.jpg",
+        "descricao": "Descrição: Embora os músculos isquiotibiais não sejam muito volumosos, ainda assim constituem uma boa parte do volume total da coxa e desempenham um papel essencial em muitos desportos. Os isquiotibiais são compostos pelos músculos semitendíneo e semimembranáceo.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Isquiotibiais / Bíceps femorais (músculos posteriores da coxa)",
+            "Músculos de acção secundária: Gastrocnémios (gémeos/panturrilhas)"
+        ]
+    },
+    {
+        "nome": "Flexão de pernas em pé",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/flexao_de_perna_em_pe.jpg",
+        "descricao": "Variação: Nesta variação de flexão de perna, treina-se apenas uma perna de cada vez, o que pode permitir que se concentre mais em sentir e trabalhar o músculo-alvo. Não se esqueça de realizar uma boa contracção de pico no final do movimento.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Isquiotibiais / Bíceps femorais (músculos posteriores da coxa)",
+            "Músculos de acção secundária: Gastrocnémios (gémeos/panturrilhas)"
+        ]
+    }
+]

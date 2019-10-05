@@ -1,1 +1,37 @@
-[{"nome":"Curl / rosca com barra em pronação","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/Curl_pronacao_barra.jpg","descricao":"Descrição: Esta variação do curl com barra é realizada da mesma forma que o curl com barra clássico, só muda o tipo de agarre, em pronação (palmas das mãos a apontar para o chão). Este tipo de agarre faz com que haja uma maior participação dos músculos extensores dos punhos no movimento.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Extensores dos punhos, bíceps braquial, braquial"]},{"nome":"Curl / rosca com halter em semi-pronação (martelo)","descricao":"Descrição: Mais uma variação do curl com halteres, desta vez utiliza-se um agarre em semi-pronação ou neutro (com as palmas das mãos a apontar para o tronco), de forma a recrutar mais os músculos extensores dos punhos.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Extensores dos punhos, bíceps braquial, braquial"]},{"nome":"Flexão dos punhos em pronação","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/Extensões_antebraços_barra.jpg","descricao":"Descrição: Este exercício é o ideal para quem pretende trabalhar os músculos extensores dos punhos sem o envolvimento dos músculos braquial e bíceps braquial.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Extensores dos punhos"]},{"nome":"Flexão dos punhos em supinação","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/Flexão_do_punho_em_supinação.jpg","descricao":"Descrição: Este é o exercício mais utilizado para trabalhar os músculos flexores dos punhos. Utilize pesos razoáveis e evite o uso da “batota / impulsos”.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Flexores dos punhos"]}]
+[
+    {
+        "nome": "Curl / rosca com barra em pronação",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/Curl_pronacao_barra.jpg",
+        "descricao": "Descrição: Esta variação do curl com barra é realizada da mesma forma que o curl com barra clássico, só muda o tipo de agarre, em pronação (palmas das mãos a apontar para o chão). Este tipo de agarre faz com que haja uma maior participação dos músculos extensores dos punhos no movimento.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Extensores dos punhos, bíceps braquial, braquial"
+        ]
+    },
+    {
+        "nome": "Curl / rosca com halter em semi-pronação (martelo)",
+        "descricao": "Descrição: Mais uma variação do curl com halteres, desta vez utiliza-se um agarre em semi-pronação ou neutro (com as palmas das mãos a apontar para o tronco), de forma a recrutar mais os músculos extensores dos punhos.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Extensores dos punhos, bíceps braquial, braquial"
+        ]
+    },
+    {
+        "nome": "Flexão dos punhos em pronação",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/Extensões_antebraços_barra.jpg",
+        "descricao": "Descrição: Este exercício é o ideal para quem pretende trabalhar os músculos extensores dos punhos sem o envolvimento dos músculos braquial e bíceps braquial.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Extensores dos punhos"
+        ]
+    },
+    {
+        "nome": "Flexão dos punhos em supinação",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/Flexão_do_punho_em_supinação.jpg",
+        "descricao": "Descrição: Este é o exercício mais utilizado para trabalhar os músculos flexores dos punhos. Utilize pesos razoáveis e evite o uso da “batota / impulsos”.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Flexores dos punhos"
+        ]
+    }
+]

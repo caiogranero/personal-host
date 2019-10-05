@@ -8,7 +8,7 @@ const { application } = environment.getSetup();
 const { port } = application;
 
 const printRoutes = () => {
-  app._router.stack.forEach((r) => {
+  app._router.stack.forEach(r => {
     if (r.route && r.route.path) {
       const { route } = r;
       const { path } = route;
@@ -20,7 +20,7 @@ const printRoutes = () => {
 };
 
 String.prototype.toObjectId = function() {
-  const ObjectId = (require('mongoose').Types.ObjectId);
+  const ObjectId = require('mongoose').Types.ObjectId;
   return new ObjectId(this.toString());
 };
 

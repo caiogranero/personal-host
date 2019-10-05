@@ -10,13 +10,13 @@ const cors = require('cors');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const Middleware = require('../utils/Middleware');
-const env = require('dotenv')
+const env = require('dotenv');
 
-env.config(); 
+env.config();
 
 const config = environment.getSetup('development');
 
-mongoose.connect(config.db.uri, {dbName: 'personal'});
+mongoose.connect(config.db.uri, { dbName: 'personal' });
 mongoose.Promise = global.Promise;
 
 app.set('superSecret', config.application.secret);
@@ -30,9 +30,11 @@ if (process.env.NODE_ENV !== 'test') {
 }
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({
-  extended: true,
-}));
+app.use(
+  bodyParser.urlencoded({
+    extended: true
+  })
+);
 
 let routes = './routes';
 

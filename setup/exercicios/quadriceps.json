@@ -1,1 +1,69 @@
-[{"nome":"Agachamento com barra","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/agachamento_com_barra.jpg","descricao":"Descrição: O exercício número um para trabalhar as pernas, a forma clássica de realizar o agachamento é com uma barra livre à nuca. Este exercício composto deverá formar a base do seu  treino de as pernas e não pode faltar no seu programa de treino.","topicos":["Tipo de exercício: Movimento composto (poliarticular)","Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral)","Músculos de acção secundária: Glúteo maior, isquiotibiais, adutores, eretores da espinha, reto abdominal"]},{"nome":"Agachamento frontal","descricao":"3 posições mais comuns no agachamento","topicos":["Tipo de exercício: Movimento composto (poliarticular)","Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral)","Músculos de acção secundária: Glúteo maior, isquiotibiais, adutores, eretores da espinha, reto abdominal"]},{"nome":"Agachamento hack em máquina","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/agachamento_hack.jpg","descricao":"Descrição: O agachamento hack (encostado na máquina, joelhos a um ângulo de 50°)  é, segundo um estudo em que se realizarem testes EMG, o exercício que mais ativa os músculos quadríceps. Se tem acesso a esta máquina, não perca a oportunidade de retirar o máximo proveito deste exercício.","topicos":["Tipo de exercício: Movimento composto (poliarticular)","Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral)","Músculos de acção secundária: Glúteo maior, isquiotibiais, adutores, eretores da espinha, reto abdominal"]},{"nome":"Prensa de pernas","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/Prensa_de_pernas.jpg","descricao":"Descrição: A prensa de pernas fica em terceiro lugar na lista dos exercícios mais eficientes para os quadríceps, logo a seguir ao agachamento hack em máquina e ao agachamento com barra. Esta é uma possível alternativa para quem sofre de problemas lombares e não consegue suportar ou realizar os vários tipos de agachamento com barra ou agachamento em máquina. Também é uma excelente alternativa para adicionar variedade aos seus treinos.","topicos":["Tipo de exercício: Movimento composto (poliarticular)","Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral)","Músculos de acção secundária: Glúteo maior, isquiotibiais, adutores"]},{"nome":" Afundo","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/afundo.jpg","descricao":"Descrição: Um excelente exercício para aqueles que não conseguem suportar grandes cargas como no agachamento. Devido a só se treinar uma perna de cada vez, a carga que necessita de levantar é reduzida em quase metade. A imagem acima é bastante descritiva, dê um passo à frente e regresse à posição inicial, depois repita com a outra perna.","topicos":["Tipo de exercício: Movimento composto (poliarticular)","Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral), Glúteo maior","Músculos de acção secundária: Isquiotibiais, adutores"]},{"nome":"Afundo com barra","descricao":"Variação: Nesta variação, a única diferença é que se usa uma barra em vez de halteres, o que altera o centro de gravidade. utilize a variação em que se consegue equilibrar melhor, e/ou sentir melhor os quadríceps e glúteos a trabalhar. Também pode sempre variar, de forma a evitar que a monotonia se instale nos treinos.","topicos":["Tipo de exercício: Movimento composto (poliarticular)","Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral), Glúteo maior","Músculos de acção secundária: Isquiotibiais, adutores"]},{"nome":"Extensões de pernas","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/extensao_de_pernas.jpg","descricao":"Descrição: Este é um exercícios de isolamento para os quadríceps. Assegure-se de utilizar pesos que pode movimentar de forma controlada e com boa técnica e realize uma contracção de pico no final do movimento.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Quadríceps (Vasto lateral, vasto medial, vasto intermédio e reto femoral)"]}]
+[
+    {
+        "nome": "Agachamento com barra",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/agachamento_com_barra.jpg",
+        "descricao": "Descrição: O exercício número um para trabalhar as pernas, a forma clássica de realizar o agachamento é com uma barra livre à nuca. Este exercício composto deverá formar a base do seu  treino de as pernas e não pode faltar no seu programa de treino.",
+        "topicos": [
+            "Tipo de exercício: Movimento composto (poliarticular)",
+            "Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral)",
+            "Músculos de acção secundária: Glúteo maior, isquiotibiais, adutores, eretores da espinha, reto abdominal"
+        ]
+    },
+    {
+        "nome": "Agachamento frontal",
+        "descricao": "3 posições mais comuns no agachamento",
+        "topicos": [
+            "Tipo de exercício: Movimento composto (poliarticular)",
+            "Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral)",
+            "Músculos de acção secundária: Glúteo maior, isquiotibiais, adutores, eretores da espinha, reto abdominal"
+        ]
+    },
+    {
+        "nome": "Agachamento hack em máquina",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/agachamento_hack.jpg",
+        "descricao": "Descrição: O agachamento hack (encostado na máquina, joelhos a um ângulo de 50°)  é, segundo um estudo em que se realizarem testes EMG, o exercício que mais ativa os músculos quadríceps. Se tem acesso a esta máquina, não perca a oportunidade de retirar o máximo proveito deste exercício.",
+        "topicos": [
+            "Tipo de exercício: Movimento composto (poliarticular)",
+            "Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral)",
+            "Músculos de acção secundária: Glúteo maior, isquiotibiais, adutores, eretores da espinha, reto abdominal"
+        ]
+    },
+    {
+        "nome": "Prensa de pernas",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/Prensa_de_pernas.jpg",
+        "descricao": "Descrição: A prensa de pernas fica em terceiro lugar na lista dos exercícios mais eficientes para os quadríceps, logo a seguir ao agachamento hack em máquina e ao agachamento com barra. Esta é uma possível alternativa para quem sofre de problemas lombares e não consegue suportar ou realizar os vários tipos de agachamento com barra ou agachamento em máquina. Também é uma excelente alternativa para adicionar variedade aos seus treinos.",
+        "topicos": [
+            "Tipo de exercício: Movimento composto (poliarticular)",
+            "Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral)",
+            "Músculos de acção secundária: Glúteo maior, isquiotibiais, adutores"
+        ]
+    },
+    {
+        "nome": " Afundo",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/afundo.jpg",
+        "descricao": "Descrição: Um excelente exercício para aqueles que não conseguem suportar grandes cargas como no agachamento. Devido a só se treinar uma perna de cada vez, a carga que necessita de levantar é reduzida em quase metade. A imagem acima é bastante descritiva, dê um passo à frente e regresse à posição inicial, depois repita com a outra perna.",
+        "topicos": [
+            "Tipo de exercício: Movimento composto (poliarticular)",
+            "Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral), Glúteo maior",
+            "Músculos de acção secundária: Isquiotibiais, adutores"
+        ]
+    },
+    {
+        "nome": "Afundo com barra",
+        "descricao": "Variação: Nesta variação, a única diferença é que se usa uma barra em vez de halteres, o que altera o centro de gravidade. utilize a variação em que se consegue equilibrar melhor, e/ou sentir melhor os quadríceps e glúteos a trabalhar. Também pode sempre variar, de forma a evitar que a monotonia se instale nos treinos.",
+        "topicos": [
+            "Tipo de exercício: Movimento composto (poliarticular)",
+            "Músculos de acção principal: Quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral), Glúteo maior",
+            "Músculos de acção secundária: Isquiotibiais, adutores"
+        ]
+    },
+    {
+        "nome": "Extensões de pernas",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/extensao_de_pernas.jpg",
+        "descricao": "Descrição: Este é um exercícios de isolamento para os quadríceps. Assegure-se de utilizar pesos que pode movimentar de forma controlada e com boa técnica e realize uma contracção de pico no final do movimento.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Quadríceps (Vasto lateral, vasto medial, vasto intermédio e reto femoral)"
+        ]
+    }
+]

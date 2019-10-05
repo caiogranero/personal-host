@@ -1,5 +1,5 @@
 /* eslint no-param-reassign: ["error", { "props": false }] */
-const musculos = require("../models/Musculos");
+const musculos = require('../models/Musculos');
 
 const musculosController = {
   ListarMusculos() {

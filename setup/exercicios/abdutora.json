@@ -1,1 +1,34 @@
-[{"nome":"Máquina abdutora","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/máquina_abdutora.jpg","descricao":"Descrição: Este exercício é ideal para aqueles que não realizam movimentos compostos como o agachamento com barra, ou pretendem trabalhar / desenvolver mais os músculos glúteo médio e glúteo mínimo. A máquina proporciona uma movimento completamente estável e uma tensão constante ao longo de toda a amplitude do movimento.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Glúteo médio e glúteo mínimo"]},{"nome":"Abdução em polia baixa","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/abdução_em_polia_baixa.jpg","descricao":"Descrição: Mais um bom exercício de isolamento para os músculos abdutores, uma excelente alternativa para quem não tem acesso à máquina abdutora. Tal como acontece na máquina abdutora, este exercício também tem a vantagem de manter uma tensão constante ao longo de toda a extensão do movimento.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Glúteo médio e glúteo mínimo"]},{"nome":"Abdução no chão","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/abdução_no_chão.jpg","descricao":"Descrição: Este exercício tem a grande vantagem de não necessitar de nenhum tipo de equipamento especial, nem de acesso a um ginásio. Pode, se assim o desejar, adicionar resistência extra na forma de uma caneleira.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Glúteo médio e glúteo mínimo"]},{"nome":"Regressar à página principal dos exercícios","descricao":"","topicos":[]}]
+[
+    {
+        "nome": "Máquina abdutora",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/máquina_abdutora.jpg",
+        "descricao": "Descrição: Este exercício é ideal para aqueles que não realizam movimentos compostos como o agachamento com barra, ou pretendem trabalhar / desenvolver mais os músculos glúteo médio e glúteo mínimo. A máquina proporciona uma movimento completamente estável e uma tensão constante ao longo de toda a amplitude do movimento.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Glúteo médio e glúteo mínimo"
+        ]
+    },
+    {
+        "nome": "Abdução em polia baixa",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/abdução_em_polia_baixa.jpg",
+        "descricao": "Descrição: Mais um bom exercício de isolamento para os músculos abdutores, uma excelente alternativa para quem não tem acesso à máquina abdutora. Tal como acontece na máquina abdutora, este exercício também tem a vantagem de manter uma tensão constante ao longo de toda a extensão do movimento.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Glúteo médio e glúteo mínimo"
+        ]
+    },
+    {
+        "nome": "Abdução no chão",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/abdução_no_chão.jpg",
+        "descricao": "Descrição: Este exercício tem a grande vantagem de não necessitar de nenhum tipo de equipamento especial, nem de acesso a um ginásio. Pode, se assim o desejar, adicionar resistência extra na forma de uma caneleira.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Glúteo médio e glúteo mínimo"
+        ]
+    },
+    {
+        "nome": "Regressar à página principal dos exercícios",
+        "descricao": "",
+        "topicos": []
+    }
+]

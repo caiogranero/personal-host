@@ -2,19 +2,17 @@ require('mongoose-schema-extend');
 const mongoose = require('mongoose');
 const User = require('./User');
 
-const {
-  Schema,
-} = mongoose;
+const { Schema } = mongoose;
 
 const PersonalSchema = User.extend({
   alunos: {
     type: [Schema.Types.ObjectId],
     required: true,
-    ref: 'Aluno',
+    ref: 'Aluno'
   },
   code: {
     type: String,
-    required: true,
+    required: true
   }
 });
 

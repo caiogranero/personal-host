@@ -8,6 +8,6 @@ const treinoRepository = {
       .find(params)
       .exec();
   }
-}
+};
 
 module.exports = treinoRepository;

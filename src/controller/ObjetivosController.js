@@ -1,5 +1,5 @@
 /* eslint no-param-reassign: ["error", { "props": false }] */
-const objetivos = require("../models/Objetivos");
+const objetivos = require('../models/Objetivos');
 const _ = require('lodash');
 
 const objetivosController = {

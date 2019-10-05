@@ -2,9 +2,7 @@ require('mongoose-schema-extend');
 const mongoose = require('mongoose');
 const Entity = require('./Entity');
 const Objetivos = require('./Objetivos');
-const {
-  Schema,
-} = mongoose;
+const { Schema } = mongoose;
 
 const TreinoExercicioSchema = new Schema({
   exercicio: {
@@ -26,7 +24,6 @@ const TreinoExercicioSchema = new Schema({
   }
 });
 
-
 const GrupoExercicioSchema = new Schema({
   nome: {
     type: String
@@ -36,38 +33,41 @@ const GrupoExercicioSchema = new Schema({
   }
 });
 
-const TreinoSchema = Entity.extend({
-  nome: {
-    type: String
+const TreinoSchema = Entity.extend(
+  {
+    nome: {
+      type: String
+    },
+    objetivo: {
+      type: Number,
+      enum: Object.values(Objetivos)
+    },
+    observacao: {
+      type: String
+    },
+    dataInicio: {
+      type: Date
+    },
+    dataFinal: {
+      type: Date
+    },
+    grupos: {
+      type: [GrupoExercicioSchema]
+    },
+    personal: {
+      type: [Schema.Types.ObjectId],
+      required: true,
+      ref: 'Personal'
+    },
+    aluno: {
+      type: [Schema.Types.ObjectId],
+      required: true,
+      ref: 'Aluno'
+    }
   },
-  objetivo: {
-    type: Number,
-    enum: Object.values(Objetivos),
-  },
-  observacao: {
-    type: String
-  },
-  dataInicio: {
-    type: Date
-  },
-  dataFinal: {
-    type: Date
-  },
-  grupos: {
-    type: [GrupoExercicioSchema]
-  },
-  personal: {
-    type: [Schema.Types.ObjectId],
-    required: true,
-    ref: 'Personal'
-  },
-  aluno: {
-    type: [Schema.Types.ObjectId],
-    required: true,
-    ref: 'Aluno',
+  {
+    collection: 'treinos'
   }
-}, {
-  collection: 'treinos',
-});
+);
 
 module.exports = mongoose.model('Treino', TreinoSchema);

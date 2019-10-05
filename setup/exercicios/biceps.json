@@ -1,1 +1,92 @@
-[{"nome":"Curl / rosca com barra","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/curl_barra_reta.jpg","descricao":"Descrição: O curl com barra é o movimento mais conhecido, o mais usado e também um dos mais mal executados do ginásio. Para aprender a realizá-lo da forma correta, é aconselhável que comece por apoiar as costas numa estrutura sólida como um pilar e usar cargas moderadas.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)","Músculo de acção secundária: Parte anterior do deltóide"]},{"nome":"Curl / rosca com halteres","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/curl_halteres_sentado.jpg","descricao":"Descrição: O movimento mais conhecido e realizado a seguir ao curl com barra. é também um dos realizados com pior forma. Deixe o ego fora do ginásio e utilize pesos que possa utilizar sem impulsos.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)","Músculo de acção secundária:Parte anterior do deltóide"]},{"nome":"Curl de concentração (rosca concentrada)","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/curl_concentracao.jpg","descricao":"Descrição: Segundo análises EMG, este é o exercícios mais eficiente para os bíceps quando realizado de forma excêntrica + contrações de pico/máximas. Mais uma vez, utilize pesos que consiga controlar bem e não faça batota.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)","Músculo de acção secundária: Parte anterior do deltóide"]},{"nome":"Curl / rosca Scoot com barra","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/curl_scoot_barra.jpg","descricao":"Descrição: Popularizada por Larry Scoot, o primeiro Mr. Olympia, esta variação permite um maior isolamento dos bíceps (menor participação da parte anterior dos deltóides) e evita o uso de batota/impulsos durante a realização do exercício. Por outro lado, o ângulo e a forma do exercício poderão ser prejudiciais para  o tecido conjuntivo dos bíceps.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)","Músculo de acção secundária: Parte anterior do deltóide"]},{"nome":"Curl / rosca Scoot com halter","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/curl_scoot_halter.jpg","descricao":"Descrição: Esta variação do Curl Scoot permite que se concentre num braço de cada vez, para além disso, permite também que se ajude a si mesmo com a mão livre a realizar repetições excêntricas, ou forçadas.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)","Músculo de acção secundária: Parte anterior do deltóide"]},{"nome":"Curl / rosca Scoot em máquina","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/curl_scoot_máquina.jpg","descricao":"Descrição: Esta variação do Curl Scoot tem a vantagem de manter uma tensão constante ao longo de toda a amplitude do movimento. Tornando também praticamente impossível o uso de impulso / batota durante o movimento.  É também excelente para quem tem problemas lombares e não consegue suportar cargas em pé como no curl com barra ou halteres.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)","Músculo de acção secundária: Parte anterior do deltóide"]},{"nome":"Curl / rosca em máquina","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/curl_máquina.jpg","descricao":"Descrição: O curl em máquina é ideal para principiantes ou indivíduos com problemas de coordenação, pois a máquina mantém o movimento estável durante toda a extensão do movimento e mantém também uma tensão sempre constante. É excelente também para quem tem problemas lombares e não consegue suportar cargas em pé como no curl com barra ou halteres.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)","Músculo de acção secundária: Parte anterior do deltóide"]},{"nome":"Curl / rosca em polia baixa","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/curl_biceps_polia_baixa.jpg","descricao":"Descrição: O curl em polia baixa é uma variação interessante, que permite a realização do movimento curl com uma tensão constante ao longo de todo o movimento.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)","Músculo de acção secundária: Parte anterior do deltóide"]},{"nome":"Curl / rosca bíceps em polia alta","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/curl_bíceps_polia_alta.jpg","descricao":"Descrição: Mais uma variação interessante, que permite trabalhar os bíceps a partir de um ângulo diferente dos restantes movimentos de curl. É também muito usado pelos culturistas para melhorar e praticar as poses de  bíceps.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)","Músculo de acção secundária: Parte anterior do deltóide"]}]
+[
+    {
+        "nome": "Curl / rosca com barra",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/curl_barra_reta.jpg",
+        "descricao": "Descrição: O curl com barra é o movimento mais conhecido, o mais usado e também um dos mais mal executados do ginásio. Para aprender a realizá-lo da forma correta, é aconselhável que comece por apoiar as costas numa estrutura sólida como um pilar e usar cargas moderadas.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)",
+            "Músculo de acção secundária: Parte anterior do deltóide"
+        ]
+    },
+    {
+        "nome": "Curl / rosca com halteres",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/curl_halteres_sentado.jpg",
+        "descricao": "Descrição: O movimento mais conhecido e realizado a seguir ao curl com barra. é também um dos realizados com pior forma. Deixe o ego fora do ginásio e utilize pesos que possa utilizar sem impulsos.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)",
+            "Músculo de acção secundária:Parte anterior do deltóide"
+        ]
+    },
+    {
+        "nome": "Curl de concentração (rosca concentrada)",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/curl_concentracao.jpg",
+        "descricao": "Descrição: Segundo análises EMG, este é o exercícios mais eficiente para os bíceps quando realizado de forma excêntrica + contrações de pico/máximas. Mais uma vez, utilize pesos que consiga controlar bem e não faça batota.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)",
+            "Músculo de acção secundária: Parte anterior do deltóide"
+        ]
+    },
+    {
+        "nome": "Curl / rosca Scoot com barra",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/curl_scoot_barra.jpg",
+        "descricao": "Descrição: Popularizada por Larry Scoot, o primeiro Mr. Olympia, esta variação permite um maior isolamento dos bíceps (menor participação da parte anterior dos deltóides) e evita o uso de batota/impulsos durante a realização do exercício. Por outro lado, o ângulo e a forma do exercício poderão ser prejudiciais para  o tecido conjuntivo dos bíceps.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)",
+            "Músculo de acção secundária: Parte anterior do deltóide"
+        ]
+    },
+    {
+        "nome": "Curl / rosca Scoot com halter",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/curl_scoot_halter.jpg",
+        "descricao": "Descrição: Esta variação do Curl Scoot permite que se concentre num braço de cada vez, para além disso, permite também que se ajude a si mesmo com a mão livre a realizar repetições excêntricas, ou forçadas.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)",
+            "Músculo de acção secundária: Parte anterior do deltóide"
+        ]
+    },
+    {
+        "nome": "Curl / rosca Scoot em máquina",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/curl_scoot_máquina.jpg",
+        "descricao": "Descrição: Esta variação do Curl Scoot tem a vantagem de manter uma tensão constante ao longo de toda a amplitude do movimento. Tornando também praticamente impossível o uso de impulso / batota durante o movimento.  É também excelente para quem tem problemas lombares e não consegue suportar cargas em pé como no curl com barra ou halteres.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)",
+            "Músculo de acção secundária: Parte anterior do deltóide"
+        ]
+    },
+    {
+        "nome": "Curl / rosca em máquina",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/curl_máquina.jpg",
+        "descricao": "Descrição: O curl em máquina é ideal para principiantes ou indivíduos com problemas de coordenação, pois a máquina mantém o movimento estável durante toda a extensão do movimento e mantém também uma tensão sempre constante. É excelente também para quem tem problemas lombares e não consegue suportar cargas em pé como no curl com barra ou halteres.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)",
+            "Músculo de acção secundária: Parte anterior do deltóide"
+        ]
+    },
+    {
+        "nome": "Curl / rosca em polia baixa",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/curl_biceps_polia_baixa.jpg",
+        "descricao": "Descrição: O curl em polia baixa é uma variação interessante, que permite a realização do movimento curl com uma tensão constante ao longo de todo o movimento.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)",
+            "Músculo de acção secundária: Parte anterior do deltóide"
+        ]
+    },
+    {
+        "nome": "Curl / rosca bíceps em polia alta",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/curl_bíceps_polia_alta.jpg",
+        "descricao": "Descrição: Mais uma variação interessante, que permite trabalhar os bíceps a partir de um ângulo diferente dos restantes movimentos de curl. É também muito usado pelos culturistas para melhorar e praticar as poses de  bíceps.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Bíceps braquial (cabeça longa e cabeça curta)",
+            "Músculo de acção secundária: Parte anterior do deltóide"
+        ]
+    }
+]

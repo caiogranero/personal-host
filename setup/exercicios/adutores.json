@@ -1,1 +1,30 @@
-[{"nome":"Máquina adutora","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/cadeira-adultora1.jpg","descricao":"Descrição: Infelizmente nenhum exercício composto trabalha os músculos adutores de forma significativa, pelo que se torna necessária a inclusão de pelo menos um exercício de isolamento para este grupo muscular. A máquina adutora é sem dúvida a melhor opção, pois permite a realização de um movimento completamente estável, bem como uma tensão sempre constante.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: Adutores (adutor longo, adutor magno, pectíneo, grácil)"]},{"nome":"Adutores em polia baixa","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/adutores_com_polia_baixa.jpg","descricao":"Descrição: Mais um bom exercício de isolamento para os adutores, uma excelente alternativa para quem não tem acesso à máquina de adutores. Tal como acontece na máquina de adutores, este exercício também tem a vantagem de manter uma tensão constante ao longo de toda a extensão do movimento.","topicos":["Tipo de exercício: Movimento de isolamento (monoarticular)","Músculos de acção principal: (adutor longo, adutor magno, pectíneo, grácil)"]},{"nome":"Peso morto sumô / Levantamento terra sumô","imagem":"https://www.musculacao.net/wp-content/uploads/2012/08/levantamentoterrasumo1.jpg","descricao":"Descrição: Esta é a variação de peso morto que mais recruta os músculos adutores, infelizmente não trabalha estes músculos com uma intensidade significativa, pelo que deverá incorporar no seu programa de treino pelo menos um dos exercícios descritos acima.","topicos":["Tipo de exercício: Movimento composto (poliarticular)","Músculos de acção principal: Quadríceps, glúteos","Músculos de acção secundária: Adutores"]}]
+[
+    {
+        "nome": "Máquina adutora",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/cadeira-adultora1.jpg",
+        "descricao": "Descrição: Infelizmente nenhum exercício composto trabalha os músculos adutores de forma significativa, pelo que se torna necessária a inclusão de pelo menos um exercício de isolamento para este grupo muscular. A máquina adutora é sem dúvida a melhor opção, pois permite a realização de um movimento completamente estável, bem como uma tensão sempre constante.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: Adutores (adutor longo, adutor magno, pectíneo, grácil)"
+        ]
+    },
+    {
+        "nome": "Adutores em polia baixa",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/adutores_com_polia_baixa.jpg",
+        "descricao": "Descrição: Mais um bom exercício de isolamento para os adutores, uma excelente alternativa para quem não tem acesso à máquina de adutores. Tal como acontece na máquina de adutores, este exercício também tem a vantagem de manter uma tensão constante ao longo de toda a extensão do movimento.",
+        "topicos": [
+            "Tipo de exercício: Movimento de isolamento (monoarticular)",
+            "Músculos de acção principal: (adutor longo, adutor magno, pectíneo, grácil)"
+        ]
+    },
+    {
+        "nome": "Peso morto sumô / Levantamento terra sumô",
+        "imagem": "https://www.musculacao.net/wp-content/uploads/2012/08/levantamentoterrasumo1.jpg",
+        "descricao": "Descrição: Esta é a variação de peso morto que mais recruta os músculos adutores, infelizmente não trabalha estes músculos com uma intensidade significativa, pelo que deverá incorporar no seu programa de treino pelo menos um dos exercícios descritos acima.",
+        "topicos": [
+            "Tipo de exercício: Movimento composto (poliarticular)",
+            "Músculos de acção principal: Quadríceps, glúteos",
+            "Músculos de acção secundária: Adutores"
+        ]
+    }
+]
