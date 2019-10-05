@@ -13,7 +13,7 @@
   "author": "Caio Granero <caio.granero@usp.br>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "body-parser": "^1.17.2",
     "consign": "^0.1.6",
     "cookie-parser": "^1.4.3",
